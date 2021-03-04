@@ -8,12 +8,15 @@
 import Foundation
 import UIKit
 
+let cellHeight = 50
+
 class SubTableViewCell: UITableViewCell {
     var dataArray: [String]? {
         didSet {
             tableView.snp.updateConstraints { (make) in
-                make.height.equalTo((dataArray?.count ?? 0)*62+44)
+                make.height.equalTo((dataArray?.count ?? 0)*cellHeight+44)
             }
+            tableView.reloadData()
         }
     }
     let UITableViewCellID = "UITabelViewCell_ID"
@@ -24,14 +27,14 @@ class SubTableViewCell: UITableViewCell {
         tableView.separatorInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.estimatedRowHeight = 62
+        tableView.estimatedRowHeight = cellHeight
         tableView.rowHeight = UITableView.automaticDimension
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCellID)
         self.contentView.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
-            make.edges.equalTo(0)
-            make.height.equalTo((dataArray?.count ?? 0)*62+44)
+            make.edges.equalToSuperview()
+            make.height.equalTo((dataArray?.count ?? 0)*cellHeight+44)
         }
         return tableView
     }()

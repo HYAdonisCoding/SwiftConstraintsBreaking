@@ -77,7 +77,7 @@ class SectionHeaderView: UITableViewHeaderFooterView {
         view.backgroundColor = UIColor.white
         self.addSubview(view)
         view.snp.makeConstraints { (make) in
-            make.edges.equalTo(0)
+            make.center.equalToSuperview()
             make.width.equalTo(UIScreen.main.bounds.size.width)
             make.height.greaterThanOrEqualTo(30)
         }

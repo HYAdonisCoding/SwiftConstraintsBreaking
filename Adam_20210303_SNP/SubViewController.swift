@@ -26,12 +26,13 @@ class SubViewController: ViewController {
             make.left.equalTo(0)
             make.right.equalTo(0)
         }
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(refreshFunc))
     }
 }
 
 extension SubViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return dataArray.count
+        return 2
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
@@ -51,5 +52,12 @@ extension SubViewController {
 //        let titleString = dataArray[section]
 //        header.titleString = titleString
         return UIView()
+    }
+}
+
+extension SubViewController {
+    @objc func refreshFunc() {
+        dataArray.append("天气")
+        tableView.reloadData()
     }
 }

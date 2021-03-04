@@ -1,0 +1,6 @@
+framework module Pods_Adam_20210303_SNPTests {
+  umbrella header "Pods-Adam_20210303_SNPTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

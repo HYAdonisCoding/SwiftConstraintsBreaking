@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,12 @@
 		6645A31725EF7DF1000B55A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6645A31525EF7DF1000B55A9 /* LaunchScreen.storyboard */; };
 		6645A32225EF7DF1000B55A9 /* Adam_20210303_SNPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645A32125EF7DF1000B55A9 /* Adam_20210303_SNPTests.swift */; };
 		6645A32D25EF7DF1000B55A9 /* Adam_20210303_SNPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645A32C25EF7DF1000B55A9 /* Adam_20210303_SNPUITests.swift */; };
+		6645A34825EF8806000B55A9 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645A34725EF8806000B55A9 /* SectionHeaderView.swift */; };
+		6645A3F225F0A802000B55A9 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645A3F125F0A802000B55A9 /* SubViewController.swift */; };
+		6645A3F725F0A8EF000B55A9 /* SubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645A3F625F0A8EF000B55A9 /* SubTableViewCell.swift */; };
+		98AE45696CA3A56A061EEBD8 /* Pods_Adam_20210303_SNP_Adam_20210303_SNPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448FCF92FB3B82DEE6B3E6B /* Pods_Adam_20210303_SNP_Adam_20210303_SNPUITests.framework */; };
+		C5900F62087487823F637728 /* Pods_Adam_20210303_SNP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80EB5D213ECBC55112FEFEA /* Pods_Adam_20210303_SNP.framework */; };
+		FE6CE153819D874B2A5772E0 /* Pods_Adam_20210303_SNPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A386E1F39E98FF16AA209E5E /* Pods_Adam_20210303_SNPTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10B5475C8C9D641F747B0426 /* Pods-Adam_20210303_SNP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20210303_SNP.release.xcconfig"; path = "Target Support Files/Pods-Adam_20210303_SNP/Pods-Adam_20210303_SNP.release.xcconfig"; sourceTree = "<group>"; };
+		2246D803736956BBBDEDECB2 /* Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.release.xcconfig"; path = "Target Support Files/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AA842EAE2257FDB9265E97C /* Pods-Adam_20210303_SNPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20210303_SNPTests.release.xcconfig"; path = "Target Support Files/Pods-Adam_20210303_SNPTests/Pods-Adam_20210303_SNPTests.release.xcconfig"; sourceTree = "<group>"; };
 		6645A30725EF7DEC000B55A9 /* Adam_20210303_SNP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adam_20210303_SNP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6645A30A25EF7DEC000B55A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6645A30C25EF7DEC000B55A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		6645A32825EF7DF1000B55A9 /* Adam_20210303_SNPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adam_20210303_SNPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6645A32C25EF7DF1000B55A9 /* Adam_20210303_SNPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adam_20210303_SNPUITests.swift; sourceTree = "<group>"; };
 		6645A32E25EF7DF1000B55A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6645A34725EF8806000B55A9 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		6645A3F125F0A802000B55A9 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		6645A3F625F0A8EF000B55A9 /* SubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTableViewCell.swift; sourceTree = "<group>"; };
+		7C4E025A10A13E57E827BBE0 /* Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.debug.xcconfig"; path = "Target Support Files/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9448FCF92FB3B82DEE6B3E6B /* Pods_Adam_20210303_SNP_Adam_20210303_SNPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adam_20210303_SNP_Adam_20210303_SNPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E1BB3B8E18F782E916C9BB /* Pods-Adam_20210303_SNP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20210303_SNP.debug.xcconfig"; path = "Target Support Files/Pods-Adam_20210303_SNP/Pods-Adam_20210303_SNP.debug.xcconfig"; sourceTree = "<group>"; };
+		A386E1F39E98FF16AA209E5E /* Pods_Adam_20210303_SNPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adam_20210303_SNPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80EB5D213ECBC55112FEFEA /* Pods_Adam_20210303_SNP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adam_20210303_SNP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76A9E7F587C935970FA60B3 /* Pods-Adam_20210303_SNPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_20210303_SNPTests.debug.xcconfig"; path = "Target Support Files/Pods-Adam_20210303_SNPTests/Pods-Adam_20210303_SNPTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5900F62087487823F637728 /* Pods_Adam_20210303_SNP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6CE153819D874B2A5772E0 /* Pods_Adam_20210303_SNPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98AE45696CA3A56A061EEBD8 /* Pods_Adam_20210303_SNP_Adam_20210303_SNPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FF056525E46890499C45C6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96E1BB3B8E18F782E916C9BB /* Pods-Adam_20210303_SNP.debug.xcconfig */,
+				10B5475C8C9D641F747B0426 /* Pods-Adam_20210303_SNP.release.xcconfig */,
+				7C4E025A10A13E57E827BBE0 /* Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.debug.xcconfig */,
+				2246D803736956BBBDEDECB2 /* Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.release.xcconfig */,
+				D76A9E7F587C935970FA60B3 /* Pods-Adam_20210303_SNPTests.debug.xcconfig */,
+				3AA842EAE2257FDB9265E97C /* Pods-Adam_20210303_SNPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6645A2FE25EF7DEC000B55A9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				6645A32025EF7DF1000B55A9 /* Adam_20210303_SNPTests */,
 				6645A32B25EF7DF1000B55A9 /* Adam_20210303_SNPUITests */,
 				6645A30825EF7DEC000B55A9 /* Products */,
+				3FF056525E46890499C45C6C /* Pods */,
+				DB2150C2D2A65248F749ED89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +138,9 @@
 				6645A30A25EF7DEC000B55A9 /* AppDelegate.swift */,
 				6645A30C25EF7DEC000B55A9 /* SceneDelegate.swift */,
 				6645A30E25EF7DEC000B55A9 /* ViewController.swift */,
+				6645A3F125F0A802000B55A9 /* SubViewController.swift */,
+				6645A3F625F0A8EF000B55A9 /* SubTableViewCell.swift */,
+				6645A34725EF8806000B55A9 /* SectionHeaderView.swift */,
 				6645A31025EF7DEC000B55A9 /* Main.storyboard */,
 				6645A31325EF7DF1000B55A9 /* Assets.xcassets */,
 				6645A31525EF7DF1000B55A9 /* LaunchScreen.storyboard */,
@@ -128,6 +167,16 @@
 			path = Adam_20210303_SNPUITests;
 			sourceTree = "<group>";
 		};
+		DB2150C2D2A65248F749ED89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A80EB5D213ECBC55112FEFEA /* Pods_Adam_20210303_SNP.framework */,
+				9448FCF92FB3B82DEE6B3E6B /* Pods_Adam_20210303_SNP_Adam_20210303_SNPUITests.framework */,
+				A386E1F39E98FF16AA209E5E /* Pods_Adam_20210303_SNPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6645A33125EF7DF1000B55A9 /* Build configuration list for PBXNativeTarget "Adam_20210303_SNP" */;
 			buildPhases = (
+				594BCA6D842EF1DBD925B658 /* [CP] Check Pods Manifest.lock */,
 				6645A30325EF7DEC000B55A9 /* Sources */,
 				6645A30425EF7DEC000B55A9 /* Frameworks */,
 				6645A30525EF7DEC000B55A9 /* Resources */,
+				7DB1D026266D52939FFA51A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6645A33425EF7DF1000B55A9 /* Build configuration list for PBXNativeTarget "Adam_20210303_SNPTests" */;
 			buildPhases = (
+				7150E56B41CDB740DE3A4A7B /* [CP] Check Pods Manifest.lock */,
 				6645A31925EF7DF1000B55A9 /* Sources */,
 				6645A31A25EF7DF1000B55A9 /* Frameworks */,
 				6645A31B25EF7DF1000B55A9 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6645A33725EF7DF1000B55A9 /* Build configuration list for PBXNativeTarget "Adam_20210303_SNPUITests" */;
 			buildPhases = (
+				F4C7D8E2C49441D54E62317F /* [CP] Check Pods Manifest.lock */,
 				6645A32425EF7DF1000B55A9 /* Sources */,
 				6645A32525EF7DF1000B55A9 /* Frameworks */,
 				6645A32625EF7DF1000B55A9 /* Resources */,
+				5C48F0CB71EAE352380F27AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +307,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		594BCA6D842EF1DBD925B658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adam_20210303_SNP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C48F0CB71EAE352380F27AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7150E56B41CDB740DE3A4A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adam_20210303_SNPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DB1D026266D52939FFA51A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adam_20210303_SNP/Pods-Adam_20210303_SNP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adam_20210303_SNP/Pods-Adam_20210303_SNP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Adam_20210303_SNP/Pods-Adam_20210303_SNP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C7D8E2C49441D54E62317F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6645A30325EF7DEC000B55A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +417,10 @@
 			files = (
 				6645A30F25EF7DEC000B55A9 /* ViewController.swift in Sources */,
 				6645A30B25EF7DEC000B55A9 /* AppDelegate.swift in Sources */,
+				6645A3F725F0A8EF000B55A9 /* SubTableViewCell.swift in Sources */,
+				6645A3F225F0A802000B55A9 /* SubViewController.swift in Sources */,
 				6645A30D25EF7DEC000B55A9 /* SceneDelegate.swift in Sources */,
+				6645A34825EF8806000B55A9 /* SectionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +593,13 @@
 		};
 		6645A33225EF7DF1000B55A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E1BB3B8E18F782E916C9BB /* Pods-Adam_20210303_SNP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Adam_20210303_SNP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +613,13 @@
 		};
 		6645A33325EF7DF1000B55A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B5475C8C9D641F747B0426 /* Pods-Adam_20210303_SNP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Adam_20210303_SNP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +633,7 @@
 		};
 		6645A33525EF7DF1000B55A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76A9E7F587C935970FA60B3 /* Pods-Adam_20210303_SNPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +655,7 @@
 		};
 		6645A33625EF7DF1000B55A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA842EAE2257FDB9265E97C /* Pods-Adam_20210303_SNPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +677,7 @@
 		};
 		6645A33825EF7DF1000B55A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4E025A10A13E57E827BBE0 /* Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +697,7 @@
 		};
 		6645A33925EF7DF1000B55A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2246D803736956BBBDEDECB2 /* Pods-Adam_20210303_SNP-Adam_20210303_SNPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
